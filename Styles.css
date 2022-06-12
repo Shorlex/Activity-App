@@ -1,0 +1,40 @@
+body{
+    background-color: black
+}
+.container{
+    height: 500px;
+    width: 500px;
+    background-image: url(Bored.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+.btn{
+    margin-left: 150px;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: white;
+    color: burlywood;
+}
+#report{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+@media screen and (max-width: 600px){
+    h1, p{
+        font-size: 150%;
+    }
+    .container{
+        width: 100%;
+    }
+}
